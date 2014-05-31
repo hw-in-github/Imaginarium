@@ -21,6 +21,7 @@
 		8C9E7151193A136100D381CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9E7133193A136100D381CC /* UIKit.framework */; };
 		8C9E7159193A136100D381CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C9E7157193A136100D381CC /* InfoPlist.strings */; };
 		8C9E715B193A136100D381CC /* ImaginariumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E715A193A136100D381CC /* ImaginariumTests.m */; };
+		8C9E7166193A17CC00D381CC /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E7165193A17CC00D381CC /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8C9E7156193A136100D381CC /* ImaginariumTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImaginariumTests-Info.plist"; sourceTree = "<group>"; };
 		8C9E7158193A136100D381CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8C9E715A193A136100D381CC /* ImaginariumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImaginariumTests.m; sourceTree = "<group>"; };
+		8C9E7164193A17CC00D381CC /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		8C9E7165193A17CC00D381CC /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				8C9E713E193A136100D381CC /* AppDelegate.h */,
 				8C9E713F193A136100D381CC /* AppDelegate.m */,
 				8C9E7141193A136100D381CC /* Main.storyboard */,
+				8C9E7164193A17CC00D381CC /* ImageViewController.h */,
+				8C9E7165193A17CC00D381CC /* ImageViewController.m */,
 				8C9E7144193A136100D381CC /* ViewController.h */,
 				8C9E7145193A136100D381CC /* ViewController.m */,
 				8C9E7147193A136100D381CC /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C9E7146193A136100D381CC /* ViewController.m in Sources */,
+				8C9E7166193A17CC00D381CC /* ImageViewController.m in Sources */,
 				8C9E7140193A136100D381CC /* AppDelegate.m in Sources */,
 				8C9E713C193A136100D381CC /* main.m in Sources */,
 			);
@@ -379,6 +385,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Imaginarium/Imaginarium-Prefix.pch";
 				INFOPLIST_FILE = "Imaginarium/Imaginarium-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +399,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Imaginarium/Imaginarium-Prefix.pch";
 				INFOPLIST_FILE = "Imaginarium/Imaginarium-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
